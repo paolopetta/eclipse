@@ -1,0 +1,21 @@
+
+public class BankAccount {
+	
+	private double saldo;
+	private String nome;
+	
+	public BankAccount(double saldo, String nome) {
+		this.saldo = saldo;
+		this.nome= nome;
+	}
+	public double getSaldo() {
+		return saldo;		
+	}
+	
+	public String getNome() {
+		return nome;
+	}
+	
+	
+}
+

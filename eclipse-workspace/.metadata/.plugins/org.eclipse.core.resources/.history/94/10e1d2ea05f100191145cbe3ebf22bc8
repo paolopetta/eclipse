@@ -1,0 +1,14 @@
+
+public class LibroCatalogato extends Libro{
+	
+	private String soggetto;
+	
+	public LibroCatalogato(Autore autore,String titolo, double prezzo, String soggetto) {
+		super(autore, titolo, prezzo);
+		this.soggetto= soggetto;
+	}
+	
+	
+	
+		
+}

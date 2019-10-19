@@ -1,0 +1,16 @@
+INDEX VERSION 1.131+/home/paolo/eclipse-workspace/.metadata/.plugins/org.eclipse.jdt.core
+916496438.index
+2524147983.index
+3927790721.index
+1175494123.index
+2545294107.index
+1756548250.index
+853194497.index
+1192636249.index
+2115932203.index
+4111299246.index
+2456075062.index
+4146450179.index
+2038995386.index
+3050238525.index
+2945947553.index

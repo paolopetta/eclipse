@@ -1,0 +1,41 @@
+package Banca;
+
+public class BankAccount implements Cloneable{
+	
+	private double saldo;
+	private String nome;
+	private int ID;
+	private Cliente cliente;
+	
+	public BankAccount(double saldo, Cliente cliente) {
+		this.saldo = saldo;
+		this.cliente= cliente;
+	}
+
+	public double getSaldo() {
+		return saldo;		
+	}
+	
+	public String getNome() {
+		return nome;
+	}
+	
+	public int getID() {
+		return ID;
+	}
+	
+	public void preleva(double amount) {
+		saldo -= amount;
+	}
+	
+	public void deposita(double amount) {
+		saldo +=amount;
+	}
+	
+	public String toString() {
+		return getClass().getName()+"[cliente="+cliente+", saldo="+saldo+"]";
+}
+	
+	
+}
+

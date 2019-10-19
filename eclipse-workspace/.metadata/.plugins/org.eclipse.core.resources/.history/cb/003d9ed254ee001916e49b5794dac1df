@@ -1,0 +1,24 @@
+
+public final class Indirizzo {
+	
+	private String via, nCivico;
+	
+	public Indirizzo() {
+		via = "";
+		nCivico="";
+	}
+	
+	public Indirizzo(String via, String nCivico) {
+		this.via= via;
+		this.nCivico= nCivico;
+	}
+	
+	public String getVia() {
+		return via;
+	}
+	
+	public String getNCiv() {
+		return nCivico;
+	}
+	
+}

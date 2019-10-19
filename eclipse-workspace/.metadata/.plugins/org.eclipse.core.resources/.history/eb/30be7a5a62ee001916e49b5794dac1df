@@ -1,0 +1,59 @@
+package anagrafica;
+
+public final class Indirizzo implements Cloneable {
+	
+	private String via,città;
+	private int nCivico, cap;
+	
+	public Indirizzo() {
+		via = "";
+		nCivico=0;
+		città="";
+		cap=0;
+	}
+	
+	public Indirizzo(String via, int nCivico, String città, int cap) {
+		this.via= via;
+		this.nCivico= nCivico;
+		this.città= città;
+		this.cap= cap;
+	}
+	
+	public String getVia() {
+		return via;
+	}
+	
+	public int getNCiv() {
+		return nCivico;
+	}
+	
+	public int getCap() {
+		return cap;
+	}
+	
+	public String getCittà() {
+		return città;
+	}
+	
+	public String toString() {
+		return getClass().getName()+"[via="+via+", città="+città+", civico="+nCivico+", cap="+cap+"]";
+	}
+	
+	public boolean equals(Object otherObject){
+		if (otherObject == null) return false;
+		if (getClass() != otherObject.getClass())
+		return false;
+		Indirizzo other = (Indirizzo)otherObject;
+		return via.equals(other.via) && nCivico==other.nCivico && cap==other.cap && città.equals(other.città);
+		}
+	
+	protected Indirizzo Clone() {
+		try {
+			return(Indirizzo) super.clone();
+		}
+		catch (CloneNotSupportedException e) {
+			return null;
+		}
+	}
+	
+}

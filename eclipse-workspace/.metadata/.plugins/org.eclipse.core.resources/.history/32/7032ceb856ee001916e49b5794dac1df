@@ -1,0 +1,38 @@
+
+public final class Indirizzo {
+	
+	private String via,città;
+	private int nCivico, cap;
+	
+	public Indirizzo() {
+		via = "";
+		nCivico=0;
+		città="";
+		cap=0;
+	}
+	
+	public Indirizzo(String via, int nCivico, String città, int cap) {
+		this.via= via;
+		this.nCivico= nCivico;
+		this.città= città;
+		this.cap= cap;
+	}
+	
+	public String getVia() {
+		return via;
+	}
+	
+	public int getNCiv() {
+		return nCivico;
+	}
+	
+	public int getCap() {
+		return cap;
+	}
+	
+	public String getCittà() {
+		return città;
+	}
+	
+	
+}

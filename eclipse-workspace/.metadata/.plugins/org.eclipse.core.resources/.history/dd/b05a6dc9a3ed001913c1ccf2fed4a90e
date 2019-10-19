@@ -1,0 +1,16 @@
+
+public class ArrayEstTester {
+
+	public static void main(String[] args) {
+		ArrayEstendibile a= new ArrayEstendibile();
+		
+		for(ArrayEstendibile nuovo : a) {
+			nuovo= 8;
+		}
+		
+		a.add(12.5);
+		
+		
+	}
+
+}
