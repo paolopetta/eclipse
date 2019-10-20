@@ -1,32 +1,16 @@
-<<<<<<< HEAD
-INDEX VERSION 1.131+C:\Users\pavil\OneDrive\Desktop\gitHub\eclipse\eclipse-workspace\.metadata\.plugins\org.eclipse.jdt.core
-1143809802.index
-1264354736.index
-508079432.index
-3508058567.index
-3294775327.index
-2430991345.index
-358778459.index
+INDEX VERSION 1.131+C:\Users\pavil\OneDrive\Desktop\GitHub\eclipse\eclipse-workspace\.metadata\.plugins\org.eclipse.jdt.core
 1365284036.index
-3073404731.index
-288685611.index
-1691008221.index
-1737532472.index
-659760299.index
-=======
-INDEX VERSION 1.131+C:\Users\pavil\OneDrive\Desktop\progetto\eclipse-workspace\.metadata\.plugins\org.eclipse.jdt.core
-659760299.index
-358778459.index
-1264354736.index
 3508058567.index
+508079432.index
+288685611.index
+3294775327.index
+1691008221.index
+659760299.index
 705701447.index
-288685611.index
 1143809802.index
-1691008221.index
-1365284036.index
-3294775327.index
-2430991345.index
+1264354736.index
 3073404731.index
-508079432.index
+2430991345.index
 1737532472.index
->>>>>>> 3c8f3b0fbcf08b7a279bebb24294e24b111e4aaa
+113558702.index
+358778459.index

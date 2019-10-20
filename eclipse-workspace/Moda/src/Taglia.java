@@ -2,13 +2,13 @@
 public class Taglia implements Cloneable{
 	
 	private String codAlf;
-	private int cod;
+	private String cod;
 	
 	
 	//costruttore
-	public Taglia( String codAlf, int cod){
+	public Taglia( String codAlf, String cod){
 		this.codAlf= (codAlf == null?"" : codAlf);
-		this.cod= cod;
+		this.cod= (cod == null?"": cod);
 	}
 	
 	//accesso
@@ -16,7 +16,7 @@ public class Taglia implements Cloneable{
 		return codAlf;
 	}
 	
-	public int getCod() {
+	public String getCod() {
 		return cod;
 	}
 	
@@ -25,7 +25,7 @@ public class Taglia implements Cloneable{
 		codAlf= newCod;		
 	}
 	
-	public void changeCod(int newCod) {
+	public void changeCod(String newCod) {
 		cod= newCod;		
 	}
 	

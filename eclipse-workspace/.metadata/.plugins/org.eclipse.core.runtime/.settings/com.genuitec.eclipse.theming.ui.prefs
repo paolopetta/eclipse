@@ -1,3 +1,6 @@
+=\=\=\=\=\=\=
+<<<<<<<=HEAD
+>>>>>>>=3c8f3b0fbcf08b7a279bebb24294e24b111e4aaa
 applyBackground=false
 approved.defs.file.last.changed.time=1567206552000
 codemix.dont.show.upsell.until=1570960384378
@@ -5,13 +8,8 @@ configurationInstallLocation=/C\:/Users/pavil/eclipse/java-2019-09/eclipse/
 eclipse.preferences.version=1
 elearning.dont.show.until=1572074001674
 iconcolormode=primary
-<<<<<<< HEAD
-last.download.attempt.time=1571481920541
-lastConfiguration=1571481907816
-=======
-last.download.attempt.time=1571327854493
-lastConfiguration=1571479418034
->>>>>>> 3c8f3b0fbcf08b7a279bebb24294e24b111e4aaa
+last.download.attempt.time=1571591918377
+lastConfiguration=1571591905506
 newinstall=false
 showWelcomeDialog=false
 workbench.theme=Dark Gray
