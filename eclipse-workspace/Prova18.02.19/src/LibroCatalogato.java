@@ -1,5 +1,5 @@
 
-public class LibroCatalogato extends Libro implements Cloneable{
+public class LibroCatalogato extends Libro{
 	
 	private String soggetto;
 	private Collocazione collocazione;
@@ -19,13 +19,29 @@ public class LibroCatalogato extends Libro implements Cloneable{
 	public Collocazione getColloc() {
 		return collocazione;
 	}
-		
-	//modificatori
 	
+	//modificatore
+	
+	public void changeColloc(Collocazione newColl) {
+		collocazione= newColl;
+	}
+			
 	public String toString() {
 		return super.toString()+"[soggetto="+ soggetto +", collocazione=" + collocazione+"]";
 	}
 	
+	public boolean equals(Object otherObject) {
+		if(!super.equals(otherObject)) return false;
+		
+		LibroCatalogato other= (LibroCatalogato) otherObject;
+		return soggetto.equals(other.soggetto) && collocazione.equals(other.collocazione);
+	}
+	
+	public LibroCatalogato clone() {
+			LibroCatalogato cloned= (LibroCatalogato) super.clone();
+			cloned.collocazione = collocazione.clone();
+			return cloned;
+	}
 	
 		
 }

@@ -2,22 +2,22 @@ package anagrafica;
 
 public final class Indirizzo implements Cloneable {
 	
-	private String via,città;
+	private String via,citta ;
 	private int nCivico, cap;
 	
 	public Indirizzo() {
 		via = (via ==null ? "" : via);
 		nCivico=0;
-		città=(città ==null ? "" : città);
+		citta =(citta  ==null ? "" : citta);
 		cap=0;
 	}
 	
-	public Indirizzo(String via, int nCivico, String città, int cap) {
+	public Indirizzo(String via, int nCivico, String citta ,int cap) {
 		this.via= via;
 		this.nCivico= nCivico;
-		this.città= città;
+		this.citta = citta;
 		this.cap= cap;
-	}
+		}
 	
 	public String getVia() {
 		return via;
@@ -31,12 +31,12 @@ public final class Indirizzo implements Cloneable {
 		return cap;
 	}
 	
-	public String getCittà() {
-		return città;
+	public String getCitta() {
+		return citta;
 	}
 	
 	public String toString() {
-		return getClass().getName()+"[via="+via+", città="+città+", civico="+nCivico+", cap="+cap+"]";
+		return getClass().getName()+"[via="+via+", citta�="+citta+", civico="+nCivico+", cap="+cap+"]";
 	}
 	
 	public boolean equals(Object otherObject){
@@ -44,7 +44,7 @@ public final class Indirizzo implements Cloneable {
 		if (getClass() != otherObject.getClass())
 		return false;
 		Indirizzo other = (Indirizzo)otherObject;
-		return via.equals(other.via) && nCivico==other.nCivico && cap==other.cap && città.equals(other.città);
+		return via.equals(other.via) && nCivico==other.nCivico && cap==other.cap && citta.equals(other.citta);
 		}
 	
 	protected Indirizzo clone() {

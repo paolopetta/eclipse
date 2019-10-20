@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <libraryInfos>
+<<<<<<< HEAD
 <libraryInfo home="C:\Program Files\Java\jre1.8.0_191" version="1.8.0_191">
 <bootpath>
 <entry path="C:\Program Files\Java\jre1.8.0_191\lib\resources.jar"/>
@@ -20,4 +21,8 @@
 </endorsedDirs>
 </libraryInfo>
 <libraryInfo home="/usr/lib/java/jdk-12.0.2" version="12.0.2"/>
+=======
+    <libraryInfo home="C:\Program Files\Java\jdk-12.0.2" version="12.0.2"/>
+    <libraryInfo home="/usr/lib/java/jdk-12.0.2" version="12.0.2"/>
+>>>>>>> 3c8f3b0fbcf08b7a279bebb24294e24b111e4aaa
 </libraryInfos>
