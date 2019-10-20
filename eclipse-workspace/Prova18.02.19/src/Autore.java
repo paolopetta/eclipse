@@ -1,5 +1,5 @@
 
-public class Autore {
+public class Autore implements Cloneable{
 	
 	private final String nome, cognome, dataNascita;
 	
@@ -26,4 +26,27 @@ public class Autore {
 	public String getDataNasc() {
 		return dataNascita;
 	}
+	
+	public String toString () {
+		return getClass().getName()+"[nome="+nome+", cognome="+cognome+", data di nascita="+ dataNascita+"]";
+	}
+	
+	public boolean equals(Object otherObject) {
+		if (otherObject == null) return false;
+		if(getClass() != otherObject.getClass()) return false;
+		Autore other= (Autore) otherObject;
+		return nome.equals(other.nome) && cognome.equals(other.cognome) && dataNascita == other.dataNascita;
+	}
+	
+	public Autore clone() {
+		try {
+			Autore cloned= (Autore) super.clone();
+			return cloned;
+		}
+		catch (CloneNotSupportedException e) {
+			return null;
+		}
+	}
 }
+
+	
