@@ -1,5 +1,5 @@
 
-public class Country implements Comparable<Country>, Measurer<Country> {
+public class Country {
 
 	private String nome;
 	private int sup;
@@ -19,13 +19,6 @@ public class Country implements Comparable<Country>, Measurer<Country> {
 		return sup;
 	}
 	
-	public int compareTo(Country c) {
-		if((this.getMeasure() - c.getMeasure()) < 0) // se c è più grande
-			return -1;
-		else if((this.getMeasure() - c.getMeasure()) > 0 )//c è più piccolo 
-			return 1;
-		else return 0;
-	}
 	
 	public String toString() {
 		return getClass().getName()+"[Nome="+nome+", Superficie="+sup+"]";

@@ -9,7 +9,10 @@
     <fullyQualifiedTypeName name="CapoAbbigliamento"/>
     <fullyQualifiedTypeName name="java.lang.Object"/>
     <fullyQualifiedTypeName name="Maglia"/>
-    <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="Measurable"/>
     <fullyQualifiedTypeName name="ComparableDataSet"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="Comparable"/>
+    <fullyQualifiedTypeName name="Country"/>
+    <fullyQualifiedTypeName name="Tester.Lessicografico"/>
 </qualifiedTypeNameHistroy>
