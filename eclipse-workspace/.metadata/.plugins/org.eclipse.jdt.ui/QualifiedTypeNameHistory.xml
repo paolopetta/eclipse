@@ -12,4 +12,11 @@
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="Measurable"/>
     <fullyQualifiedTypeName name="ComparableDataSet"/>
+    <fullyQualifiedTypeName name="Tester.Lessicografico"/>
+    <fullyQualifiedTypeName name="Country"/>
+    <fullyQualifiedTypeName name="Measurer"/>
+    <fullyQualifiedTypeName name="Rectangle"/>
+    <fullyQualifiedTypeName name="RectangleAreaMeasurer"/>
+    <fullyQualifiedTypeName name="DataSetMeasurer"/>
+    <fullyQualifiedTypeName name="java.awt.Rectangle"/>
 </qualifiedTypeNameHistroy>
