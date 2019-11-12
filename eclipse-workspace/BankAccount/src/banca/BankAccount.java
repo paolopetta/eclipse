@@ -1,14 +1,16 @@
-package Banca;
+package banca;
 import anagrafica.*;
+import eccezioni.*;
 
-public class BankAccount implements Cloneable{
+public class BankAccount implements Cloneable {
 	
 	private double saldo;
 	private String nome;
 	private int ID;
 	private Cliente cliente;
 	
-	public BankAccount(double saldo, Cliente cliente) {
+	public BankAccount(double saldo, Cliente cliente) throws ErrorCostructSaldoNegativoException{
+		if(saldo < 0)  throw new ErrorCostructSaldoNegativoException();
 		this.saldo = saldo;
 		this.cliente= cliente;
 	}
@@ -25,11 +27,15 @@ public class BankAccount implements Cloneable{
 		return ID;
 	}
 	
-	public void preleva(double amount) {
+	public void preleva(double amount) throws ErrorSaldoInsufficienteException{
+		if(amount > saldo) throw new ErrorSaldoInsufficienteException();
+
 		saldo -= amount;
 	}
 	
-	public void deposita(double amount) {
+	public void deposita(double amount) throws ErrorVersamentoNegativoException{
+		if(amount < 0) throw new ErrorVersamentoNegativoException();
+		
 		saldo +=amount;
 	}
 	

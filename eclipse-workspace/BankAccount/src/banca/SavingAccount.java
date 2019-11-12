@@ -1,4 +1,4 @@
-package Banca;
+package banca;
 import anagrafica.*;
 
 public class SavingAccount extends BankAccount {

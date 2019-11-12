@@ -1,6 +1,7 @@
-package Banca;
+package banca;
 import anagrafica.*;
 //import java.util.*;
+import eccezioni.ErrorSaldoInsufficienteException;
 
 public class BankTester {
 
@@ -9,7 +10,17 @@ public class BankTester {
 		Cliente Paolo= new Cliente("Paolo", "Petta", indPaolo);
 		
 		SavingAccount savPaolo= new SavingAccount(12000, Paolo,30);
-		System.out.println(savPaolo);
+		//System.out.println(savPaolo);
+		
+		//test CostructSaldoNeg
+		
+		//test errorSaldoInsufficiente
+		try {
+			savPaolo.preleva(15000);
+			
+		}catch (ErrorSaldoInsufficienteException exception) {
+			System.out.println(exception);
+		}
 		
 	}
 }

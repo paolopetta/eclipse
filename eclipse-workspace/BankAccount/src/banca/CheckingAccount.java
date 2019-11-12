@@ -1,5 +1,6 @@
-package Banca;
+package banca;
 import anagrafica.*;
+import eccezioni.*;
 
 public class CheckingAccount extends BankAccount {
 
@@ -17,12 +18,12 @@ public class CheckingAccount extends BankAccount {
     operazioni++;
   }
   
-  public void prelievo(double soldi) {
+  public void prelievo(double soldi) throws ErrorSaldoInsufficienteException{
     super.preleva(soldi);
     operazioni++;
   }
   
-  public void scalaoperazioni() {
+  public void scalaoperazioni() throws ErrorSaldoInsufficienteException{
     if(operazioni > OP_GRATIS) {
       double op = operazioni * COSTO_OP;
       prelievo(op);

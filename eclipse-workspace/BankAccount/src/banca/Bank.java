@@ -1,4 +1,4 @@
-package Banca;
+package banca;
 import anagrafica.*;
 import java.util.ArrayList;
 
