@@ -4,12 +4,13 @@
 applyBackground=false
 approved.defs.file.last.changed.time=1567206552000
 codemix.dont.show.upsell.until=1570960384378
-configurationInstallLocation=/C\:/Users/pavil/eclipse/java-2019-09/eclipse/
+configurationInstallLocation=/C\:/Users/pavil/eclipse/java-2019-092/eclipse/
 eclipse.preferences.version=1
 elearning.dont.show.until=1572074001674
 iconcolormode=primary
-last.download.attempt.time=1573407176814
-lastConfiguration=1573459999505
+includeThemingInOomph=false
+last.download.attempt.time=1573842687572
+lastConfiguration=1573842649572
 newinstall=false
 showWelcomeDialog=false
-workbench.theme=Dark Gray
+workbench.theme=Deep Black
