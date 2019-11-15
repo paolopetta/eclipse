@@ -3,6 +3,8 @@ import java.awt.Graphics2D;
 
 import javax.swing.*;
 
+import coloreAlCentro.Errore;
+
 public class Test {
 
 	public static void main(String[] args) {
@@ -16,9 +18,18 @@ public class Test {
 		frame.setTitle("Due rettangoli");
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		
-		Bandiera component= new Bandiera();
-		frame.add(component);
 		
+		String input= JOptionPane.showInputDialog("Inserisci cosa vuoi vedere");
+		
+		if(input.compareTo("Bandiera Italia") == 0) {
+			Bandiera component= new Bandiera();
+			frame.add(component);
+		}
+		else {
+			Errore component1= new Errore();
+			frame.add(component1);
+			
+		}
 		frame.setVisible(true);
 		
 	}

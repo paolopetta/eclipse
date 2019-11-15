@@ -26,8 +26,15 @@
     <fullyQualifiedTypeName name="RectangleComponent"/>
     <fullyQualifiedTypeName name="java.awt.geom.Line2D.Double"/>
     <fullyQualifiedTypeName name="java.awt.geom.Line2D"/>
+    <fullyQualifiedTypeName name="java.awt.Rectangle"/>
+    <fullyQualifiedTypeName name="javax.swing.JFrame"/>
+    <fullyQualifiedTypeName name="coloreAlCentro.Test.RectangleCol"/>
+    <fullyQualifiedTypeName name="java.awt.Color"/>
+    <fullyQualifiedTypeName name="jdk.nashorn.internal.scripts.JO"/>
+    <fullyQualifiedTypeName name="javax.swing.JOptionPane"/>
     <fullyQualifiedTypeName name="javax.swing.JComponent"/>
     <fullyQualifiedTypeName name="java.awt.Graphics"/>
     <fullyQualifiedTypeName name="java.awt.Graphics2D"/>
-    <fullyQualifiedTypeName name="java.awt.Rectangle"/>
+    <fullyQualifiedTypeName name="java.lang.Error"/>
+    <fullyQualifiedTypeName name="coloreAlCentro.Errore"/>
 </qualifiedTypeNameHistroy>
