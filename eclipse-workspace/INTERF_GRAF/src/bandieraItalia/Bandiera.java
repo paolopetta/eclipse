@@ -25,6 +25,9 @@ public class Bandiera extends JComponent{
 	
 	g2.setColor(Color.white);
 	g2.fill(centerRectangle);
+	
+	
+
 	}
 
 }
