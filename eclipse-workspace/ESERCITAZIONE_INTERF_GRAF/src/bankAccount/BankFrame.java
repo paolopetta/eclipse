@@ -8,6 +8,9 @@ import javax.swing.ButtonGroup;
 import javax.swing.JButton;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
+import javax.swing.JMenu;
+import javax.swing.JMenuBar;
+import javax.swing.JMenuItem;
 import javax.swing.JPanel;
 import javax.swing.JRadioButton;
 import javax.swing.JScrollPane;
@@ -15,6 +18,7 @@ import javax.swing.JTextArea;
 import javax.swing.JTextField;
 import javax.swing.border.EtchedBorder;
 import javax.swing.border.TitledBorder;
+
 
 public class BankFrame extends JFrame {
 	
@@ -28,6 +32,9 @@ public class BankFrame extends JFrame {
 	private JButton esegui;
 	private JPanel controlPanel;
 	private JPanel radioPanel;
+	private JMenuBar menu;
+	private JMenuItem fileExitItem;
+	private JMenu file;
 	
 	
 	
@@ -40,6 +47,15 @@ public class BankFrame extends JFrame {
 		scroll = new JScrollPane(cronologia);
 		add(createControlPanel(), BorderLayout.SOUTH);
 		add(scroll, BorderLayout.CENTER);
+		menu = new JMenuBar();
+		setJMenuBar(menu);
+		file= new JMenu("file");
+		menu.add(file);
+		fileExitItem = new JMenuItem("Exit");
+		file.add(fileExitItem);
+		
+		
+				
 	}
 
 	public JPanel createControlPanel() {
@@ -86,7 +102,23 @@ public class BankFrame extends JFrame {
 			radioPanel.add(prelievo);
 			return radioPanel;			
 			
-		}		
+		}	
+		
+		public JMenuBar createMenu() {
+			menu = new JMenuBar();
+			//setJMenuBar(menu);
+			file= new JMenu("File");		
+			fileExitItem = new JMenuItem("Exit");
+			menu.add(fileExitItem);
+			return menu;
+			/*class ActionListenerMenu implements ActionListener{
+				
+			}*/
+			
+		}
+		
 	}
+
+		
 	
 
