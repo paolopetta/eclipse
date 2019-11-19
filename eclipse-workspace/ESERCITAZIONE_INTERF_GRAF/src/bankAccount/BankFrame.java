@@ -18,7 +18,6 @@ import javax.swing.border.TitledBorder;
 
 public class BankFrame extends JFrame {
 	
-	private JLabel label;
 	private JRadioButton deposito;
 	private JRadioButton prelievo;
 	private BankAccount bank;
@@ -33,9 +32,14 @@ public class BankFrame extends JFrame {
 	
 	
 	public BankFrame() {
+		bank = new BankAccount(1000);
 		setSize(800,400);
+		cronologia = new JTextArea(10,10);
+		cronologia.setEditable(false);
+		cronologia.setText("Current Balance: "+bank.getSaldo()+"\n");
+		scroll = new JScrollPane(cronologia);
 		add(createControlPanel(), BorderLayout.SOUTH);
-		bank= new BankAccount(100);		
+		add(scroll, BorderLayout.CENTER);
 	}
 
 	public JPanel createControlPanel() {
@@ -70,7 +74,7 @@ public class BankFrame extends JFrame {
 	}
 		
 		public JPanel createRadioPanel() {
-			JPanel radioPanel= new JPanel();
+			radioPanel= new JPanel();
 			radioPanel.setBorder(new TitledBorder(new EtchedBorder(), "Scelta"));
 			deposito= new JRadioButton("Deposito");
 			prelievo= new JRadioButton("Prelievo");
