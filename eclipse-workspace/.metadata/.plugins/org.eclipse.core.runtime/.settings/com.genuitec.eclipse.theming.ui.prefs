@@ -1,6 +1,6 @@
 =\=\=\=\=\=\=
 <<<<<<<=HEAD
->>>>>>>=732789d5d991301b466c92b24493200b6a262d41
+>>>>>>>=a5ce07e5f4f176db34cf9b97a324819b43020267
 applyBackground=false
 approved.defs.file.last.changed.time=1567206552000
 codemix.dont.show.upsell.until=1570960384378
@@ -9,8 +9,8 @@ eclipse.preferences.version=1
 elearning.dont.show.until=1572074001674
 iconcolormode=primary
 includeThemingInOomph=false
-last.download.attempt.time=1574349159285
-lastConfiguration=1574349143111
+last.download.attempt.time=1574349330515
+lastConfiguration=1574349317652
 newinstall=false
 showWelcomeDialog=false
 workbench.theme=Deep Black
