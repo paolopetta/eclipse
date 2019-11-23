@@ -1,18 +1,16 @@
-package punto1;
+package allegati;
 
 import java.util.ArrayList;
 
-import allegati.CentroUrbano;
 
-
-public class Centri <T extends CentroUrbano>{
-	private ArrayList<T> centri;
+public class Centri {
+	private ArrayList<CentroUrbano> centri;
 	
 	public Centri(){
-		centri=new ArrayList<T>();
+		centri=new ArrayList<CentroUrbano>();
 	}
 	
-	public void aggiungi(T x){
+	public void aggiungi(CentroUrbano x){
 		int i = cerca(x.getNome());
 		if (i== -1)	centri.add(x);			
 	}
@@ -26,17 +24,17 @@ public class Centri <T extends CentroUrbano>{
 	    return -1;
 	}
 	
-	public T cancellazione(String unNome){
+	public CentroUrbano cancellazione(String unNome){
 		int i = cerca(unNome);
 		if (i!= -1) {
-			return (T) centri.remove(i).clone();
+			return centri.remove(i).clone();
 		}
 		return null;
 	}
 	
 	
-	public T getCentro(int indice){
-		return (T) centri.get(indice).clone();
+	public CentroUrbano getCentro(int indice){
+		return centri.get(indice).clone();
 	}
 	
 	public int getSize(){
