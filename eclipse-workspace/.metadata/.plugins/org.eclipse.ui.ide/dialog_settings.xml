@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+		<item value="C:\Users\pavil\Downloads\Telegram Desktop\SECONDA_INTERCORSO"/>
 		<item value="C:\Users\pavil\Downloads\Telegram Desktop\BANKACCOUNT_GRAFICA"/>
 		<item value="C:\Users\pavil\Downloads\Telegram Desktop\INTERFACE_2"/>
 		<item value="C:\Users\pavil\Downloads\4_5900066737100949582\COMPARABLE"/>
@@ -18,7 +19,6 @@
 		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
 		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
 		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
-			<item value="C:\Users\pavil\Downloads\Telegram Desktop\SECONDA_INTERCORSO"/>
 			<item value="C:\Users\pavil\Downloads\Telegram Desktop\RUBRICA"/>
 			<item value="C:\Users\pavil\Downloads\Telegram Desktop\BANKACCOUNT_GRAFICA"/>
 			<item value="C:\Users\pavil\OneDrive\Desktop\GitHub\eclipse"/>
