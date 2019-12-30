@@ -4,13 +4,11 @@ public class Libro {
 
 	private Autore autore;
 	private String titolo;
-	private String dataNasc;
 	private double prezzo;
 	
-	public Libro(Autore autore, String titolo, String dataNasc, double prezzo) {
+	public Libro(Autore autore, String titolo, double prezzo) {
 		this.autore= autore;
 		this.titolo= titolo;
-		this.dataNasc= dataNasc;
 		this.prezzo= prezzo;
 	}
 	
@@ -22,14 +20,31 @@ public class Libro {
 		return titolo;
 	}
 	
-	public String getDataNasc() {
-		return dataNasc;
-	}
-	
 	public double getPrezzo() {
 		return prezzo;
 	}
 	
+	public String toString () {
+		return getClass().getName()+"[autore="+ autore+", titolo="+ titolo+", prezzo"+prezzo+"]";
+	}
+	
+	public boolean equals(Object otherObject) {
+		if(otherObject == null) return false;
+		if(getClass() == otherObject.getClass()) {
+			Libro other = (Libro) otherObject;
+			return autore.equals(other.autore) && titolo.equals(other.titolo);
+		}
+		return false;
+	}
+	
+	public Libro clone() {
+		try {
+			return (Libro) super.clone();
+		}
+		catch (CloneNotSupportedException e) {
+			return null;
+		}
+	}
 	
 	
 }
