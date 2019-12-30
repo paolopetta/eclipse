@@ -5,8 +5,8 @@ public class LibroCatalogato extends Libro{
 	Collocazione colloc;
 	String soggetto;
 	
-	public LibroCatalogato(Autore autore, String titolo, String dataNasc, double prezzo, Collocazione colloc, String soggetto) {
-		super(autore, titolo, dataNasc, prezzo);
+	public LibroCatalogato(Autore autore, String titolo,  double prezzo, Collocazione colloc, String soggetto) {
+		super(autore, titolo, prezzo);
 		this.colloc= colloc;
 		this.soggetto= soggetto;
 	}

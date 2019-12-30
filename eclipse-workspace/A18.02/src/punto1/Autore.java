@@ -1,6 +1,6 @@
 package punto1;
-
-public class Autore {
+//quando immutabile -> final
+public final class Autore {
 	
 	private String nome;
 	private String cognome;
@@ -23,5 +23,28 @@ public class Autore {
 	public String getDataNasc() {
 		return dataNasc;
 	}
+	
+	public String toString () {
+		return getClass().getName()+"[nome="+ nome+", cognome="+ cognome+", data nascita="+ dataNasc+"]";
+	}
+	
+	public boolean equals(Object otherObject) {
+		if(otherObject == null) return false;
+		if(getClass() == otherObject.getClass()) {
+			Autore other = (Autore) otherObject;
+			return nome.equals(other.nome) && cognome.equals(other.cognome) && dataNasc.equals(other.dataNasc);
+		}
+		return false;
+	}
+	
+	public Autore clone() {
+		try {
+			return (Autore) super.clone();
+		}
+		catch (CloneNotSupportedException e) {
+			return null;
+		}
+	}
+	
 	
 }
