@@ -1,6 +1,6 @@
 package punto1;
 //quando immutabile -> final
-public final class Autore {
+public final class Autore implements Cloneable{
 	
 	private String nome;
 	private String cognome;
