@@ -2938,3 +2938,26 @@ java.lang.NullPointerException
 !MESSAGE Could not publish server configuration for Tomcat v9.0 Server at localhost.
 !SUBENTRY 1 org.eclipse.jst.server.tomcat.core 4 0 2020-05-07 22:37:10.743
 !MESSAGE Multiple Contexts have a path of "/StoreDemo".
+
+!ENTRY org.eclipse.jst.server.tomcat.core 4 0 2020-05-07 22:41:44.706
+!MESSAGE Could not publish server configuration for Tomcat v9.0 Server at localhost.
+!SUBENTRY 1 org.eclipse.jst.server.tomcat.core 4 0 2020-05-07 22:41:44.706
+!MESSAGE Multiple Contexts have a path of "/StoreDemo".
+
+!ENTRY org.eclipse.jst.server.tomcat.core 4 0 2020-05-07 22:42:11.699
+!MESSAGE Port 8080 required by Tomcat v9.0 Server at localhost is already in use. The server may already be running in another process, or a system process may be using the port. To start this server you will need to stop the other process or change the port number(s).
+
+!ENTRY org.eclipse.jst.server.tomcat.core 4 0 2020-05-07 22:43:07.194
+!MESSAGE Port 8080 required by Tomcat v9.0 Server at localhost is already in use. The server may already be running in another process, or a system process may be using the port. To start this server you will need to stop the other process or change the port number(s).
+
+!ENTRY org.eclipse.wst.server.core 4 0 2020-05-07 22:43:32.412
+!MESSAGE Server Tomcat v9.0 Server at localhost failed to start.
+
+!ENTRY org.eclipse.wst.server.core 4 0 2020-05-07 22:43:45.708
+!MESSAGE Server Tomcat v9.0 Server at localhost failed to start.
+
+!ENTRY org.eclipse.wst.server.core 4 0 2020-05-07 22:44:39.596
+!MESSAGE Server Tomcat v9.0 Server at localhost failed to start.
+
+!ENTRY org.eclipse.wst.server.core 4 0 2020-05-07 22:46:56.782
+!MESSAGE Server Tomcat v9.0 Server at localhost failed to start.
