@@ -1,8 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
-    <wb-module deploy-name="MotoDoc">
+        
+    <wb-module deploy-name="StoreDemoP">
+                
         <wb-resource deploy-path="/" source-path="/WebContent" tag="defaultRootSource"/>
+                
         <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
-        <property name="context-root" value="MotoDoc"/>
-        <property name="java-output-path" value="/MotoDoc/build/classes"/>
+                
+        <property name="java-output-path" value="/StoreDemoP/build/classes"/>
+        <property name="context-root" value="StoreDemoP"/>
+            
     </wb-module>
+    
 </project-modules>

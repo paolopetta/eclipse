@@ -1,0 +1,37 @@
+@charset "UTF-8";
+
+html {
+    width: 600px;
+    margin: 10px auto;
+    background: lightgoldenrodyellow;
+}
+
+table {
+    width: 600px;
+    background: snow;
+}
+
+form {
+    background: snow;
+}
+
+table, th, td {
+    text-align: center;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 5px;
+}
+
+a {
+    text-decoration: inherit;
+    color: red;
+    cursor: pointer;
+}
+
+fieldset {
+    width: 570px;
+    background: snow;
+}
